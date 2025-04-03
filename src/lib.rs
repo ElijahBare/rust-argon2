@@ -89,6 +89,7 @@ mod variant;
 mod version;
 
 pub use crate::argon2::*;
+pub use crate::block::Block;
 pub use crate::config::Config;
 pub use crate::context::Context;
 pub use crate::core::fill_memory_blocks;
