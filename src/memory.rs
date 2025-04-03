@@ -20,7 +20,7 @@ pub struct Memory {
     cols: usize,
 
     /// The flat array of blocks representing the memory matrix.
-    blocks: Box<[Block]>,
+    pub blocks: Box<[Block]>,
 }
 
 impl Memory {
