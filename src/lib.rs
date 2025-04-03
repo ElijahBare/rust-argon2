@@ -90,7 +90,10 @@ mod version;
 
 pub use crate::argon2::*;
 pub use crate::config::Config;
+pub use crate::context::Context;
+pub use crate::core::*;
 pub use crate::error::Error;
+pub use crate::memory::Memory;
 pub use crate::result::Result;
 pub use crate::variant::Variant;
 pub use crate::version::Version;
